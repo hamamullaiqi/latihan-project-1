@@ -3,28 +3,44 @@
 *{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0
+    
+    
+}
+nav {
+    height: 8vh;
     
 }
 
-
-.logo-text {
+nav .logo-text {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
 }
+.bg-white {
+    background-color:  #FFFFFF;
+    border-radius: 50px;
+}
+
+
 .section-home{
     margin-top: 42px;
     position: relative;
+    height: 92vh;
+    box-sizing: border-box;
 }
+
 .section-home .left-side {
     position: absolute;
-    right: 250px;
+    right: 200px;
     z-index: -1;
+    box-sizing: border-box;
        
 }
 .section-home .right-side {
-    left: 0;
-    padding-left: 130px;
+    left: 0; 
     padding-top: 80px;   
 }
 .title-text {
@@ -49,28 +65,209 @@
     color : #02897A;
 }
 
+.section-spec {
+    box-sizing: border-box;
+    height: auto;
+    
+}
+.sub-title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 30px;
+    
+    
+}
+.bg-section {
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: 850px;
+    padding: 0;
+    max-width: 100%;
+    z-index: -9999;
+    left: 0;
+
+    
+}
+
+.section-manajement{
+    margin-top: 100px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.section-manajement .left-side {
+    position: absolute;
+    right: 100px;
+    z-index: -1;
+    box-sizing: border-box;
+       
+}
+.section-manajement .right-side {
+    left: 0; 
+    padding-top: 80px;   
+}
+
+
+.section-cs .container {
+    margin-top: 100px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.section-sc .left {
+     
+    padding-top: 80px;   
+}
+.section-sc .right {
+    
+    padding-top: 80px;   
+}
+.section-cs .right .cs-item  {
+       align-items: center;
+       
+}
+.section-collab {
+    height: auto;
+    box-sizing: border-box;
+    
+}
+.section-collab .container {
+    position: relative;
+    
+}
+
+.section-collab .left {
+    position: absolute;
+    right: 0;
+}
+.section-collab .right {
+    position: absolute;
+    left: 0;
+}
+.section-process {
+    margin-top: 150px;
+}
+
+.section-process .bg {
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    top: 300px;
+    padding: 0;
+    max-width: 100%;
+    z-index: -9999;
+    transform: rotate(180deg);
+    left: 0; 
+    
+}
+
+
+
+
 @media (max-width: 576px) { 
-    body {
-        padding: 4px;
-    }
+   
     .section-home{
         margin-top: 0;
+        box-sizing: border-box;
+        height: auto;
     }
     
     .section-home .left-side img {
         width: 100%;
+        padding: 20px;
     }
     .section-home .left-side {
        position: relative;
-
        right: 0;
-           
     }
     .section-home .right-side {
-        /* position: relative; */
+        position: relative;
         padding: 0 20px;
         text-align: center;
+
             
      }
+
+     .section-spec {
+         margin-top: 150px;
+         position: relative;
+         height: auto;
+         
+         
+     }
+     .list-spec {
+        text-align: center;
+        padding: 0 90px;
+     }
+    .bg-section {
+        position: absolute;
+        width: 100%;
+        top:950px;
+        left: 0px;
+        padding: 0;
+        
+    }
+    .section-manajement{
+        margin-top: 0;
+        box-sizing: border-box;
+        height: auto;
+    }
     
+    .section-manajement .left-side img {
+        width: 100%;
+        padding: 20px;
+    }
+    .section-manajement .left-side {
+       position: relative;
+       right: 0;
+    }
+    .section-manajement .right-side {
+        position: relative;
+        padding: 0 20px;
+        
+    }
+    .section-cs {
+        
+        height: auto;
+    }
+    .section-cs .left img {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section-collab {
+        padding: 0 20px;
+        height: auto;
+    }
+    
+    .section-collab .left{
+        position: relative;
+    }
+    .section-collab .left img{
+        width: 100%;
+        padding: 20px;
+    }
+    .section-collab .right {
+        position: relative;
+        padding: 30px;
+        
+    }
+    .section-process {
+        position: relative;
+        margin-top: 0px;
+        
+    }
+    .section-process .bg {
+        position: relative;
+        top: 50px;
+        
+        }
+
+    .section-process .bg img {
+    width: 100%;
+    padding: 20px;
+    
+    }
+
+
 }
