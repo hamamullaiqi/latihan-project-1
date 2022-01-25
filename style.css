@@ -81,7 +81,7 @@ nav .logo-text {
     position: absolute;
     object-fit: cover;
     object-position: center;
-    top: 850px;
+    top: 800px;
     padding: 0;
     max-width: 100%;
     z-index: -9999;
@@ -91,7 +91,7 @@ nav .logo-text {
 }
 
 .section-manajement{
-    margin-top: 100px;
+    
     position: relative;
     box-sizing: border-box;
 }
@@ -110,7 +110,7 @@ nav .logo-text {
 
 
 .section-cs .container {
-    margin-top: 100px;
+    
     align-items: center;
     box-sizing: border-box;
 }
@@ -133,7 +133,6 @@ nav .logo-text {
 }
 .section-collab .container {
     position: relative;
-    
 }
 
 .section-collab .left {
@@ -145,14 +144,15 @@ nav .logo-text {
     left: 0;
 }
 .section-process {
-    margin-top: 150px;
+    
+    height: auto;
 }
 
 .section-process .bg {
     position: relative;
     object-fit: cover;
     object-position: center;
-    top: 300px;
+    top: 350px;
     padding: 0;
     max-width: 100%;
     z-index: -9999;
@@ -174,7 +174,8 @@ nav .logo-text {
     
     .section-home .left-side img {
         width: 100%;
-        padding: 20px;
+        height: auto;
+        padding: 10px;
     }
     .section-home .left-side {
        position: relative;
@@ -215,7 +216,8 @@ nav .logo-text {
     
     .section-manajement .left-side img {
         width: 100%;
-        padding: 20px;
+        height: auto;
+        padding: 10px;
     }
     .section-manajement .left-side {
        position: relative;
@@ -227,11 +229,13 @@ nav .logo-text {
         
     }
     .section-cs {
-        
+        margin-top: 0;
         height: auto;
     }
+    
     .section-cs .left img {
         width: 100%;
+        height: auto;
         padding: 20px;
     }
 
@@ -245,6 +249,7 @@ nav .logo-text {
     }
     .section-collab .left img{
         width: 100%;
+        height: auto;
         padding: 20px;
     }
     .section-collab .right {
@@ -253,21 +258,40 @@ nav .logo-text {
         
     }
     .section-process {
-        position: relative;
-        margin-top: 0px;
+        position: relative;     
+        height: auto;
         
     }
     .section-process .bg {
-        position: relative;
-        top: 50px;
+        position: absolute;
+        top: 0px;
         
         }
 
     .section-process .bg img {
-    width: 100%;
-    padding: 20px;
-    
+        width: 100%;
+        height: auto;
+
+    }
+    .section-process .right {
+        position: relative;
+        
     }
 
+    .section-process .list-testimoni4 {
+        position: absolute;
+        top:115px;
+    }
 
+    .btn-contact {
+        position: relative;
+        top: 200px;
+    }
+
+    .section-strategy {
+        position: relative;
+        top: 200px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
 }
