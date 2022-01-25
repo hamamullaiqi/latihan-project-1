@@ -4,8 +4,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 26px;
-    margin: 0;
-    padding: 0
+    
     
     
 }
@@ -22,6 +21,9 @@ nav .logo-text {
 .bg-white {
     background-color:  #FFFFFF;
     border-radius: 50px;
+}
+h4 {
+    line-height: 40px;
 }
 
 
@@ -59,6 +61,9 @@ nav .logo-text {
 .btn-green {
     background-color:  #02897A;
     color : white;
+}
+.text-green {
+    color : #02897A;
 }
 .btn-outline-green {
     border: 1px solid #02897A;
@@ -203,8 +208,8 @@ nav .logo-text {
     .bg-section {
         position: absolute;
         width: 100%;
-        top:950px;
-        left: 0px;
+        top: 1000px;
+        left: 0;
         padding: 0;
         
     }
@@ -277,6 +282,9 @@ nav .logo-text {
         position: relative;
         
     }
+    .section-process .testimoni {
+        margin: auto;
+    }
 
     .section-process .list-testimoni4 {
         position: absolute;
@@ -285,7 +293,7 @@ nav .logo-text {
 
     .btn-contact {
         position: relative;
-        top: 200px;
+        top: 230px;
     }
 
     .section-strategy {
@@ -294,4 +302,17 @@ nav .logo-text {
         padding: 0 20px;
         box-sizing: border-box;
     }
+    .section-strategy .title-section-senter {
+        text-align: center;
+    }
+    
+    
+    .card-item .card {
+       border:none;  
+        
+    }
+    .indicator {
+        display: none;
+    }
+
 }
