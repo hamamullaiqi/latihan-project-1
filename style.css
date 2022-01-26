@@ -197,6 +197,13 @@ h4 {
     * {
         font-size: 14px;
     }
+
+    .menu-collapse {
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+    }
     .title-text {
         font-size: 28px;
         line-height: 60px;
