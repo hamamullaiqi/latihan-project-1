@@ -137,6 +137,7 @@ h4 {
 }
 
 @media (max-width: 768px) { 
+
    
     .menu-collapse {
         text-align: center;
@@ -242,6 +243,10 @@ h4 {
     .messange-right .avatar-switch {
         position: initial;
     }
+    .messange-right .list-messange .messange-right img {
+        width: 70px;
+        height: 70;
+    }
     
 
     .section-strategy {
@@ -274,7 +279,7 @@ h4 {
         /* padding: 0 20px; */
         box-sizing: border-box;
     }
-    .section-join .card {
+    .section-join {
         text-align: center;
         box-sizing: border-box;
     }
