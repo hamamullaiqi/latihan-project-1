@@ -66,7 +66,7 @@ h4 {
 .sub-title {
     font-size: 32px;
     line-height: 48px;
-    margin-bottom: 30px;
+    
 }
 .section-spec .bg-section {
     z-index: -9999;
@@ -145,6 +145,10 @@ h4 {
         border-radius: 8px;
         z-index: 9999;
     }
+
+    .title-text {
+        font-size: 36px;
+    }
     
    
     .section-home{
@@ -173,7 +177,7 @@ h4 {
      .section-spec .bg-section {
        position: absolute; 
         width: 100%;
-        top: 950px ;   
+        top: 1000px ;   
         padding: 0;
         
     }
