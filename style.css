@@ -344,6 +344,7 @@ h4 {
     
     .card-item .card {
        border:none; 
+
        
         
     }
@@ -355,6 +356,9 @@ h4 {
     .section-price {
         padding: 0 20px;
         box-sizing: border-box;
+    }
+    .section-price .card {
+        width: 100%;
     }
     .section-rating {
         padding: 0 20px;
