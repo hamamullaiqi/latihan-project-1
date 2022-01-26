@@ -20,7 +20,7 @@ nav .logo-text {
 }
 .bg-white {
     background-color:  #FFFFFF;
-    border-radius: 50px;
+    
 }
 h4 {
     line-height: 40px;
@@ -61,6 +61,10 @@ h4 {
 .btn-green {
     background-color:  #02897A;
     color : white;
+}
+.bg-green {
+    color: white;
+    background-color: #02897A ;
 }
 .text-green {
     color : #02897A;
@@ -166,7 +170,17 @@ h4 {
     
 }
 
+.row-price {
+    
+    align-items: center;
+}
 
+.section-price .price-detail {
+    font-size: 80px;
+}
+.section-price .subscribe-price{
+    line-height: 10px !important;
+}
 
 
 @media (max-width: 768px) { 
@@ -245,6 +259,7 @@ h4 {
     .section-cs {
         margin-top: 0;
         height: auto;
+        box-sizing: border-box;
     }
     
     .section-cs .left img {
@@ -256,6 +271,7 @@ h4 {
     .section-collab {
         padding: 0 20px;
         height: auto;
+        box-sizing: border-box;
     }
     
     .section-collab .left{
@@ -272,12 +288,15 @@ h4 {
         
     }
     .section-process {
-        position: relative;     
+        position: relative;  
+        box-sizing: border-box;   
         height: auto;
         
     }
+    
     .section-process .bg {
         position: absolute;
+        z-index: -999;
         top: 0px;
         
         }
@@ -288,10 +307,13 @@ h4 {
 
     }
     .section-process .right {
-        position: relative;
+        /* position: relative;
+        justify-content: center; */
+        left: 30px;
+        box-sizing: border-box;
+        
         
     }
-    
     
     .section-process .testimoni img {
         width: 70px;
@@ -299,18 +321,19 @@ h4 {
     }
 
     .section-process .list-testimoni4 {
-        position: absolute;
-        top:115px;
+        position: absolute; 
+        top:100px;
+        z-index: -999;
     }
 
     .btn-contact {
-        position: relative;
-        top: 230px;
+        position:static !important;
+        padding-top: 200px;
+        
     }
 
     .section-strategy {
-        position: relative;
-        top: 200px;
+        
         padding: 0 20px;
         box-sizing: border-box;
     }
@@ -320,11 +343,21 @@ h4 {
     
     
     .card-item .card {
-       border:none;  
+       border:none; 
+       
         
     }
     .indicator {
         display: none;
+        
     }
 
+    .section-price {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .section-rating {
+        padding: 0 20px;
+    }
+    
 }
