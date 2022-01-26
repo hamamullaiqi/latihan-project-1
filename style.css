@@ -181,7 +181,17 @@ h4 {
 .section-price .subscribe-price{
     line-height: 10px !important;
 }
-
+.section-join .card {
+    border-radius: 32px;
+}
+.section-join .card-body {
+    align-items: center;
+    box-sizing: border-box;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
 
 @media (max-width: 768px) { 
     * {
@@ -363,6 +373,12 @@ h4 {
     .section-rating {
         /* padding: 0 20px; */
         box-sizing: border-box;
+    }
+    .section-join .card {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
     }
     
 }
